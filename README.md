@@ -4,9 +4,6 @@ This is a simple console-based TikTakToe game implemented in C. The player compe
 ## Preview
 <picture><img src="TIkTakToe.gif" width="100%"></picture>
 
-## File
-TikTakToe.c: The source code for the game.
-
 ## How to Play
 1. Start the Game: Run the program. You will be prompted to enter your moves.
   
