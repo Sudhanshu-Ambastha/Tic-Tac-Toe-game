@@ -30,14 +30,26 @@ TikTakToe.c: The source code for the game.
 printWinner(char winner): Displays the result of the game based on the winner.
 
 ## Compilation and Execution
-To compile the game, use the following command:
-```
-gcc -o TikTakToe TikTakToe.c
-```
+1. To check whether MinGW is recognized by your system, use the following command:
+   ```
+   gcc -v
+   ```
+2. use the play button in the top right corner to run and debug the code.
 
-To run the compiled program:
-```
-./TikTakToe
-```
+3. To compile the game, use the following command:
+   ```
+   gcc -o TikTakToe TikTakToe.c
+   ```
+
+   To run the compiled program:
+   ```
+   ./TikTakToe
+   ```
+
+   If you encounter any issues setting up MinGW on Windows, refer to this guide: 
+   [How to run a C program in Visual Studio Code](https://www.javatpoint.com/how-to-run-a-c-program-in-visual-studio-code)
+
 ## Dependencies
-Standard C library
+Standard C library: 
+- [MinGW](https://sourceforge.net/projects/mingw/)
+- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
