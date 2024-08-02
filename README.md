@@ -1,6 +1,9 @@
 # TikTakToe
 This is a simple console-based TikTakToe game implemented in C. The player competes against the computer in a 3x3 grid.
 
+## Preview
+<picture><img src="TIkTakToe.gif" width="100%"></picture>
+
 ## File
 TikTakToe.c: The source code for the game.
 
